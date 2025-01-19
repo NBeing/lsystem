@@ -221,8 +221,8 @@ function draw() {
       length,  // line length
       theta, // theta
       iterations,      // iterations
-      current_x, //starting_point_x,
-      current_y, //starting_point_y.
+      current_x: 0, //starting_point_x,
+      current_y: height / 2, //starting_point_y.
       current_angle,
       stack: [],
     })
